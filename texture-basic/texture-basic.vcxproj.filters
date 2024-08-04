@@ -84,7 +84,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\textures\JBNU.png">
+    <Image Include="res\textures\olympic_rings.png">
       <Filter>리소스 파일\textures</Filter>
     </Image>
   </ItemGroup>

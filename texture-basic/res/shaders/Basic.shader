@@ -25,5 +25,8 @@ uniform sampler2D u_Texture; //texture는 sampler2D 타입
 void main()
 {
 	vec4 texColor = texture(u_Texture, v_TexCoord); //texture 함수는 texcoord위치의 픽셀 색상 값을 정의된 방법에 따라 샘플링
-	color = texColor; //이제 텍스처 이미지에서 샘플링한 색상을 fragment 색상으로 결정
+
+	color = texColor ; //이제 텍스처 이미지에서 샘플링한 색상을 fragment 색상으로 결정
 };
+
+//

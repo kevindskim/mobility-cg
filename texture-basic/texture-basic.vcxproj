@@ -97,7 +97,7 @@
     <None Include="res\shaders\Basic.shader" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\textures\JBNU.png" />
+    <Image Include="res\textures\olympic_rings.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

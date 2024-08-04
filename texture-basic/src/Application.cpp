@@ -83,10 +83,11 @@ int main(void)
 		shader.Bind();
 		shader.SetUniform4f("u_Color", 0.2f, 0.3f, 0.8f, 1.0f);
 
+
 		//--------------Texture 생성---------//
-		Texture texture{ "res/textures/KMU.jpg" };
+		Texture texture{ "res/textures/olympic_rings.png" };
 		texture.Bind(); //0번 슬롯에 바인딩, default value, Texture class에 Bind()함수 원형에 default parameter로 0을 주었음.
-		                // 이런 경우 , Texture class의 Bind()함수를 호출할 때, 인자를 넣지 않아도 0번 슬롯에 바인딩됨
+		// 이런 경우 , Texture class의 Bind()함수를 호출할 때, 인자를 넣지 않아도 0번 슬롯에 바인딩됨
 		shader.SetUniform1i("u_Texture", 0); //0번 슬롯의 텍스처를 사용할 것이라는 것을 셰이더에 명시
 		
 		va.Unbind();

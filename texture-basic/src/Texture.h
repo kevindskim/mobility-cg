@@ -7,7 +7,7 @@
 class Texture
 {
 private:
-	unsigned int m_RendererID; //이전과 마찬가지로 텍스처 객체에 대한 ID 저장
+	unsigned int m_TextImagID; //이전과 마찬가지로 텍스처 객체에 대한 ID 저장
 	std::string m_FilePath;    //텍스처(이미지) 파일 경로
 	unsigned char* m_LocalBuffer; //텍스처 데이터
 	int m_Width, m_Height, m_BPP; //텍스처 정보, BPP(bits per channel)

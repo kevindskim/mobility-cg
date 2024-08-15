@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Application.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="src\IndexBuffer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -43,6 +40,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="src\vendor\glm\glm.cppm">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Application.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -84,9 +84,6 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="src\vendor\glm\geometric.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\glm.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="src\vendor\glm\integer.hpp">
@@ -933,6 +930,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="src\vendor\glm\simd\vector_relational.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\glm.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

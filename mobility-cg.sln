@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "texture-basic", "texture-ba
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLM-Library-implement", "GLM-Library-implement\GLM-Library-implement.vcxproj", "{13D41376-E46C-4B52-B1CE-9E9215D45846}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Camera-control", "Camera-control\Camera-control.vcxproj", "{18FE4D44-08A3-4E73-A9F2-72AF61965370}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -67,6 +69,14 @@ Global
 		{13D41376-E46C-4B52-B1CE-9E9215D45846}.Release|x64.ActiveCfg = Release|Win32
 		{13D41376-E46C-4B52-B1CE-9E9215D45846}.Release|x86.ActiveCfg = Release|Win32
 		{13D41376-E46C-4B52-B1CE-9E9215D45846}.Release|x86.Build.0 = Release|Win32
+		{18FE4D44-08A3-4E73-A9F2-72AF61965370}.Debug|x64.ActiveCfg = Debug|x64
+		{18FE4D44-08A3-4E73-A9F2-72AF61965370}.Debug|x64.Build.0 = Debug|x64
+		{18FE4D44-08A3-4E73-A9F2-72AF61965370}.Debug|x86.ActiveCfg = Debug|Win32
+		{18FE4D44-08A3-4E73-A9F2-72AF61965370}.Debug|x86.Build.0 = Debug|Win32
+		{18FE4D44-08A3-4E73-A9F2-72AF61965370}.Release|x64.ActiveCfg = Release|x64
+		{18FE4D44-08A3-4E73-A9F2-72AF61965370}.Release|x64.Build.0 = Release|x64
+		{18FE4D44-08A3-4E73-A9F2-72AF61965370}.Release|x86.ActiveCfg = Release|Win32
+		{18FE4D44-08A3-4E73-A9F2-72AF61965370}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

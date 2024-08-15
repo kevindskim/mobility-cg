@@ -29,7 +29,7 @@ int main(void)
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
 	/* Create a windowed mode window and its OpenGL context */
-	window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL);
+	window = glfwCreateWindow(640, 480, "Texture Basic", NULL, NULL);
 	if (!window)
 	{
 		glfwTerminate();
@@ -85,7 +85,7 @@ int main(void)
 
 
 		//--------------Texture 생성---------//
-		Texture texture{ "res/textures/olympic_rings.png" };
+		Texture texture{ "res/textures/olympic-rings.png" };
 		texture.Bind(); //0번 슬롯에 바인딩, default value, Texture class에 Bind()함수 원형에 default parameter로 0을 주었음.
 		// 이런 경우 , Texture class의 Bind()함수를 호출할 때, 인자를 넣지 않아도 0번 슬롯에 바인딩됨
 		shader.SetUniform1i("u_Texture", 0); //0번 슬롯의 텍스처를 사용할 것이라는 것을 셰이더에 명시

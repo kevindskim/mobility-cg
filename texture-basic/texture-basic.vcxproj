@@ -94,6 +94,7 @@
     <ClInclude Include="src\VertexBufferLayout.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="glew32.dll" />
     <None Include="res\shaders\Basic.shader" />
   </ItemGroup>
   <ItemGroup>

@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vertex-index-buffer-point",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "texture-basic", "texture-basic\texture-basic.vcxproj", "{EA6148D1-E5AF-41F7-B475-70C43BF61E51}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLM-Library-implement", "GLM-Library-implement\GLM-Library-implement.vcxproj", "{13D41376-E46C-4B52-B1CE-9E9215D45846}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -59,6 +61,12 @@ Global
 		{EA6148D1-E5AF-41F7-B475-70C43BF61E51}.Release|x64.ActiveCfg = Release|Win32
 		{EA6148D1-E5AF-41F7-B475-70C43BF61E51}.Release|x86.ActiveCfg = Release|Win32
 		{EA6148D1-E5AF-41F7-B475-70C43BF61E51}.Release|x86.Build.0 = Release|Win32
+		{13D41376-E46C-4B52-B1CE-9E9215D45846}.Debug|x64.ActiveCfg = Debug|Win32
+		{13D41376-E46C-4B52-B1CE-9E9215D45846}.Debug|x86.ActiveCfg = Debug|Win32
+		{13D41376-E46C-4B52-B1CE-9E9215D45846}.Debug|x86.Build.0 = Debug|Win32
+		{13D41376-E46C-4B52-B1CE-9E9215D45846}.Release|x64.ActiveCfg = Release|Win32
+		{13D41376-E46C-4B52-B1CE-9E9215D45846}.Release|x86.ActiveCfg = Release|Win32
+		{13D41376-E46C-4B52-B1CE-9E9215D45846}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

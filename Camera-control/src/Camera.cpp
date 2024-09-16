@@ -75,7 +75,7 @@ glm::mat4 Camera::calculateViewMatrix()
 {
 	glm::mat4 view = glm::lookAt(m_Eye, m_Eye + m_Front, m_Up);
 	//std::cout << glm::to_string(view) << std::endl;
-	return glm::lookAt(m_Eye, m_Eye + m_Front, m_Up); //At = Eye + Front
+	return view; //At = Eye + Front
 }
 
 void Camera::Update()

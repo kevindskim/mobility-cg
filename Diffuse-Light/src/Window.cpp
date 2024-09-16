@@ -65,7 +65,7 @@ int Window::Initialize()
 
 	//콜백 등록
 	CreateCallback();
-	glfwSetInputMode(m_MainWindow, GLFW_CURSOR, GLFW_CURSOR_DISABLED);//프로그램 실행 도중 마우스 커서가 보이지 않도록 설정하는 옵션
+//	glfwSetInputMode(m_MainWindow, GLFW_CURSOR, GLFW_CURSOR_DISABLED);//프로그램 실행 도중 마우스 커서가 보이지 않도록 설정하는 옵션
 
 	//callback은 static 함수로 선언되었으므로, GLFW에게 현재 GLFW윈도우를 포함하는 내가 만든 윈도우 객체 포인터를 알림
 	//https://stackoverflow.com/questions/55145966/what-does-glfwgetwindowuserpointer-do
